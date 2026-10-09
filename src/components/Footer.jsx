@@ -149,9 +149,16 @@ const Footer = () => {
                 <span className="relative z-10">Terms of Service</span>
                 <div className="absolute inset-0 bg-gradient-to-r from-primary-600/20 to-purple-600/20 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 -inset-2"></div>
               </a>
-              <a className="group relative hover:text-white transition-colors duration-300">
+              <a
+                href="#cookie-policy"
+                className="group relative hover:text-white transition-colors duration-300"
+                title="Cookie Policy"
+              >
                 <span className="relative z-10">Cookie Policy</span>
                 <div className="absolute inset-0 bg-gradient-to-r from-primary-600/20 to-purple-600/20 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 -inset-2"></div>
+                <span className="absolute -top-10 left-1/2 -translate-x-1/2 px-3 py-2 bg-gradient-to-r from-primary-600 to-purple-600 text-white text-xs font-semibold rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap shadow-lg pointer-events-none z-20">
+                  We use cookies to enhance your experience
+                </span>
               </a>
               <Link
                 to="/contact"
